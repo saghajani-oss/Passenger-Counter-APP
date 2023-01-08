@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./img/Passenger.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#increment-btn {
+  padding: 16px 28px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#save-btn {
+  padding: 16px 60px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+p {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
